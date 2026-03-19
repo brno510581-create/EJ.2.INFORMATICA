@@ -6,7 +6,6 @@ public class tabla_multiplicar {
 
         Scanner sc = new Scanner(System.in);
 
-
         System.out.println("Ingrese el numero para mostrar su tabla de multiplicar: ");
         int valor = sc.nextInt();
 
