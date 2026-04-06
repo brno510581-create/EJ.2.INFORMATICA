@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class eliminar_tercer_elemento {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
