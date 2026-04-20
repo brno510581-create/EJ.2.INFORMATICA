@@ -16,7 +16,7 @@ class Habitacion {
     void Info() {
         System.out.println("Habitación: " + nombreHabitacion);
         System.out.println("Temperatura: " + temperaturaActual + "°C");
-        System.out.println("--------------------------");
+        System.out.println("  ");
     }
 
     // Metodo para aumentar temperatura
@@ -39,15 +39,15 @@ public class clases_y_objetos {
         Habitacion hab2 = new Habitacion();
 
         // Usar metodos con la primera habitación
-        hab1.Nombre("Living");
-        hab1.Temperatura(22);
-        hab1.aumentarTemperatura(3);
+        hab1.Nombre("sala");
+        hab1.Temperatura(16);
+        hab1.aumentarTemperatura(2.5    );
         hab1.Info();
 
         // Usar metodos con la segunda habitación
         hab2.Nombre("Dormitorio");
-        hab2.Temperatura(18);
-        hab2.disminuirTemperatura(2);
+        hab2.Temperatura(26);
+        hab2.disminuirTemperatura(1.5);
         hab2.Info();
     }
 }
