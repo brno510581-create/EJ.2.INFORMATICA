@@ -3,7 +3,7 @@
 
 public class Main {
     public static void main(String[] args) {
-
+        
         // Crear objetos
         Habitacion hab1 = new Habitacion();
         Habitacion hab2 = new Habitacion();
