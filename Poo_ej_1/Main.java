@@ -12,14 +12,14 @@ public class Main {
 
         System.out.print("Nombre: ");
         String nombre = sc.nextLine();
-     
+
         System.out.print("Edad: ");
         int edad = sc.nextInt();
-        sc.nextLine(); 
+        sc.nextLine();
 
         // mayor de edad
         if (edad >= 18) {
-           
+
         } else {
             System.out.println("No es mayor de edad");
             return; // Salir del programa si no es mayor de edad
