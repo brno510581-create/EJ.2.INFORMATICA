@@ -14,23 +14,23 @@ public class biblioteca {
         this.libros = new ArrayList<>();
     }
 
-    // Método agregarLibro
+    // Metodo agregarLibro 
     public void agregarLibro(libro l) {
         libros.add(l);
     }
 
-    // Método listarLibros
+    // Metodo listarLibros
     public void listarLibros() {
         System.out.println(nombre);
         System.out.println("Lista de libros:");
 
         for (int i = 0; i < libros.size(); i++) {
-            
+
             libros.get(i).mostrarInfo();
         }
     }
 
-    // Método getCantidadLibros
+    // Metodo getCantidadLibros
     public int getCantidadLibros() {
         return libros.size();
     }

@@ -12,9 +12,9 @@ public class libro {
         this.autor = autor;
     }
 
-    // Método mostrarInfo
+    // Metodo mostrarInfo
     public void mostrarInfo() {
-        System.out.println("Título: " + titulo + " Autor: " + autor);
+        System.out.println("Titulo: " + titulo + " Autor: " + autor);
     }
 
     // Getters
