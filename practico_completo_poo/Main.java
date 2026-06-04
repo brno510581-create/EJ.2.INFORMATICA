@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Perro perro = new Perro("Firulais", 4, "Guau");
-        Gato gato = new Gato("Michi", 2, "Miau");
-        Pajaro pajaro = new Pajaro("Piolin", 1, "Pio");
+        Perro perro = new Perro("pedro", 4, "Guau");
+        Gato gato = new Gato("karen", 2, "Miau");
+        Pajaro pajaro = new Pajaro("blue", 1, "Pio");
 
         System.out.println("PERRO");
         perro.mostrarInfo();
