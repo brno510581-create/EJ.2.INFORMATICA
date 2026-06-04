@@ -1,31 +1,31 @@
-package practico_completo_poo;
-public class Main {
+    package practico_completo_poo;
+    public class Main {
 
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
-        Perro perro = new Perro("pedro", 4, "Guau");
-        Gato gato = new Gato("karen", 2, "Miau");
-        Pajaro pajaro = new Pajaro("blue", 1, "Pio");
+            Perro perro = new Perro("pedro", 4, "Guau");
+            Gato gato = new Gato("karen", 2, "Miau");
+            Pajaro pajaro = new Pajaro("blue", 1, "Pio");
 
-        System.out.println("PERRO");
-        perro.mostrarInfo();
-        perro.emitirSonido();
-        perro.correr();
-        System.out.println("Nivel de energía: " + perro.nivelEnergia(5));
-        System.out.println( "");
+            System.out.println("PERRO");
+            perro.mostrarInfo();
+            perro.emitirSonido();
+            perro.correr();
+            System.out.println("Nivel de energía: " + perro.nivelEnergia(5));
+            System.out.println( "");
 
-        System.out.println("GATO");
-        gato.mostrarInfo();
-        gato.emitirSonido();
-        gato.maullarFuerte();
-        System.out.println("Nivel de energía: " + gato.nivelEnergia(3));
-        System.out.println(" ");
+            System.out.println("GATO");
+            gato.mostrarInfo();
+            gato.emitirSonido();
+            gato.maullarFuerte();
+            System.out.println("Nivel de energía: " + gato.nivelEnergia(3));
+            System.out.println(" ");
 
-        System.out.println("PAJARO");
-        pajaro.mostrarInfo();
-        pajaro.emitirSonido();
-        pajaro.volar();
-        System.out.println("Nivel de energía: " + pajaro.nivelEnergia(7));
+            System.out.println("PAJARO");
+            pajaro.mostrarInfo();
+            pajaro.emitirSonido();
+            pajaro.volar();
+            System.out.println("Nivel de energía: " + pajaro.nivelEnergia(7));
+        }
     }
-}
