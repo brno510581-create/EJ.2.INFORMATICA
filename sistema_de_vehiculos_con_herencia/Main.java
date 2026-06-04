@@ -10,7 +10,7 @@ public class Main {
         Auto auto1 = new Auto("Toyota", "Corolla", 2020, 35000, 4);
         Moto moto1 = new Moto("Yamaha", "MT-07", 2022, 12000, 700);
 
-        // Métodos heredados
+        // Metodos heredados
         auto1.encender();
         auto1.mostrarInfo();
         System.out.println("Puertas: " + auto1.puertas);

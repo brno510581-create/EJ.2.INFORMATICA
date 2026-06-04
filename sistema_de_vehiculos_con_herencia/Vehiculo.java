@@ -19,11 +19,11 @@ class Vehiculo {
 
     // Métodos
     public void encender() {
-        System.out.println("El vehículo está encendido.");
+        System.out.println("El vehoiculo está encendido.");
     }
 
     public void apagar() {
-        System.out.println("El vehículo está apagado.");
+        System.out.println("El vehoiculo está apagado.");
     }
 
     public void mostrarInfo() {
