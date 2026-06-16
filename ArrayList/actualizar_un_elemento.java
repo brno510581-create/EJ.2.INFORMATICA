@@ -1,6 +1,7 @@
+package ArrayList;
 import java.util.*;
 
-public class ordenar_lista {
+public class actualizar_un_elemento {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -12,10 +13,10 @@ public class ordenar_lista {
         colores.add("amarillo");
         colores.add("naranja");
 
-        colores.sort(Collections.reverseOrder());
+        colores.set(4, "azul");
 
         System.out.println(colores);
 
         sc.close();
     }
-}  
+} 

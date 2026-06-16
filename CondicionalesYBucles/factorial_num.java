@@ -1,3 +1,4 @@
+package CondicionalesYBucles;
 import java.util.Scanner;
 
 public class factorial_num {

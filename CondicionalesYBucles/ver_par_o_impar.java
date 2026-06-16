@@ -1,3 +1,4 @@
+package CondicionalesYBucles;
 import java.util.*;
 
 public class ver_par_o_impar {

@@ -1,3 +1,4 @@
+package Calculos;
 import java.util.*;
 public class celsius_a_Fahrenheit {
     public static void main(String[] args) {

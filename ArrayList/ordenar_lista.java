@@ -1,6 +1,7 @@
+package ArrayList;
 import java.util.*;
 
-public class arraylist_recuperar_elemento {
+public class ordenar_lista {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -12,9 +13,9 @@ public class arraylist_recuperar_elemento {
         colores.add("amarillo");
         colores.add("naranja");
 
-        String elemento = colores.get(1);
+        colores.sort(Collections.reverseOrder());
 
-        System.out.println(elemento);
+        System.out.println(colores);
 
         sc.close();
     }

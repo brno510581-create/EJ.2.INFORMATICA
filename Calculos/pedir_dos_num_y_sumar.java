@@ -1,3 +1,4 @@
+package Calculos;
 import java.util.*;
 
 public class pedir_dos_num_y_sumar {
