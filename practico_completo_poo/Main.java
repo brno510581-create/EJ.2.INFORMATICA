@@ -29,3 +29,4 @@
             System.out.println("Nivel de energía: " + pajaro.nivelEnergia(7));
         }
     }
+

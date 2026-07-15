@@ -17,7 +17,7 @@ class Vehiculo {
         this.kilometraje = kilometraje;
     }
 
-    // Métodos
+    // Métodos  
     public void encender() {
         System.out.println("El vehoiculo está encendido.");
     }
